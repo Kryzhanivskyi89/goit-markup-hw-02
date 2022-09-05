@@ -17,6 +17,7 @@ body {
 }
 .links:hover,
 .links:focus {
+    
     color: var(--logo-color);
 }
 .header-logo {
@@ -44,6 +45,7 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+< !-- portfolio -->
 .button {
     color: var(--primary-color);
     font-weight: 500;
@@ -68,6 +70,62 @@ p {
     line-height: 1.9;
     letter-spacing: 0.03em;
 }
+< !-- main-hero -->
+.section-studio {
+    background-color: var(--footer-color);
+}
+.section-h1 {
+    color: var(--adresa-color);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+}
+.section-button {
+    background-color: var(--logo-color);
+    color: var(--adresa-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+h3 {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+.section-p {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+h2 {
+    color: var(--primary-color);
+    font-size: 42.19px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+.team-h3 {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+.team-p {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+< !-- Foooter -->
 .footer {
     background-color: var(--footer-color);
 }
