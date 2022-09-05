@@ -4,7 +4,8 @@
     --logo-color:#2196F3;
     --footer-color: #2F303A;
     --adresa-color:#FFFFFF;
-    --contact-color: #FFFFFF 60%;
+    --contact-color: rgba(255,255,255,0.6);
+    --studio-color: #000000;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -16,6 +17,15 @@ body {
 .links:hover,
 .links:focus {
         color: var(--logo-color);
+}
+.logo-studio {
+    color: var(--studio-color);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
 }
 .header-logo {
     color: var(--logo-color);
@@ -42,7 +52,7 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-< !-- portfolio -->
+/*  portfolio  */
 .button {
     color: var(--primary-color);
     font-weight: 500;
@@ -52,21 +62,21 @@ body {
     text-transform: uppercase;
     cursor: pointer;
 }
-h1 {
+.portfolio-h1 {
     color: var(--primary-color);
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
     letter-spacing: 0.06em;
 }
-p {
+.portfolio-p {
     color: var(--secondary-color);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.9;
     letter-spacing: 0.03em;
 }
-< !-- main-hero -->
+/*  main hero  */
 .section-studio {
     background-color: var(--footer-color);
 }
@@ -85,7 +95,14 @@ p {
     line-height: 1.88;
     letter-spacing: 0.06em;
 }
-h3 {
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+.advantage-h3 {
     color: var(--primary-color);
     font-size: 14px;
     font-weight: 700;
@@ -99,7 +116,7 @@ h3 {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-h2 {
+.title {
     color: var(--primary-color);
     font-size: 42.19px;
     font-weight: 700;
@@ -120,7 +137,7 @@ h2 {
     line-height: 1.17;
     letter-spacing: 0.03em;
 }
-< !-- Foooter -->
+/*  footer  */
 .footer {
     background-color: var(--footer-color);
 }
@@ -133,8 +150,11 @@ h2 {
     font-family: "Raleway", sans-serif;
     text-decoration: none;
 }
+.addres {
+    font-style: normal;
+}
 .footer-adres {
-    color: var(adresa-color);
+    color: var(--adresa-color);
     font-size: 14px;
     font-weight: 400;
     line-height: 1.7;
@@ -142,7 +162,7 @@ h2 {
     text-decoration: none;
 }
 .footer-contact {
-    color: var(contact-color);
+    color: var(--contact-color);
     font-size: 14px;
     font-weight: 400;
     line-height: 1.7;
