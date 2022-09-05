@@ -5,9 +5,7 @@
     --footer-color: #2F303A;
     --adresa-color:#FFFFFF;
     --contact-color: #FFFFFF 60%;
-
 }
-
 body {
     font-family: "Roboto", sans-serif;
     color: var(--primary-color);
@@ -17,8 +15,7 @@ body {
 }
 .links:hover,
 .links:focus {
-    
-    color: var(--logo-color);
+        color: var(--logo-color);
 }
 .header-logo {
     color: var(--logo-color);
@@ -55,7 +52,6 @@ body {
     text-transform: uppercase;
     cursor: pointer;
 }
-
 h1 {
     color: var(--primary-color);
     font-size: 18px;
@@ -124,7 +120,6 @@ h2 {
     line-height: 1.17;
     letter-spacing: 0.03em;
 }
-
 < !-- Foooter -->
 .footer {
     background-color: var(--footer-color);
