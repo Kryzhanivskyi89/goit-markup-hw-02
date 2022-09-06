@@ -45,7 +45,7 @@ body {
     text-decoration: none;
 }
 .header-contact {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
@@ -143,6 +143,15 @@ body {
 }
 .footer-logo {
     color: var(--logo-color);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+}
+.footer-studio {
+    color: var(--adresa-color);
     font-size: 26px;
     font-weight: 700;
     line-height: 1.17;
